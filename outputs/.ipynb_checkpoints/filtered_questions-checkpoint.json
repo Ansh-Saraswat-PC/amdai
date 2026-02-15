@@ -1,0 +1,122 @@
+[
+    {
+        "topic": "Family tree logic",
+        "question": "A man says, 'She is the daughter of my mother\u2019s only son\u2019s wife.\u2019 How is the woman related to the man?",
+        "choices": [
+            "A) A) Sister",
+            "B) B) Cousin",
+            "C) C) Daughter",
+            "D) D) Sister-in-law"
+        ],
+        "answer": "D",
+        "explanation": "The man's mother's only son is the man himself. His wife is the woman's mother. Therefore, the woman is the man's sister-in-law."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "K9L, M8N, O7P, Q6R, _____",
+        "choices": [
+            "A) A) S5T",
+            "B) B) R4S",
+            "C) C) T4S",
+            "D) D) T5S"
+        ],
+        "answer": "A",
+        "explanation": "First letters: K, M, O, Q, S (skip 2 letters each time). Second letters: 9, 8, 7, 6, 5 (decrease by 1). Third letters: L, N, P, R, T (increase by 2). Hence S5T."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "K3M, L5N, M7O, N9P, _____",
+        "choices": [
+            "A) A) O11Q",
+            "B) B) P10R",
+            "C) C) N11P",
+            "D) D) O11Q"
+        ],
+        "answer": "D",
+        "explanation": "First letters progress alphabetically: K, L, M, N, O. Second letters follow alphabetical order: 3, 5, 7, 9, 11. Third letters are sequential: M, N, O, P, Q. Hence O11Q."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are 8 people sitting around a circular table, facing the center. A is sitting between B and D. C is sitting opposite E. F is sitting second to the left of G. H is sitting immediately to the right of A. If B and G swap seats, and D and F swap seats, who will be sitting second to the right of the person opposite H?",
+        "choices": [
+            "A) E",
+            "B) F",
+            "C) G",
+            "D) C"
+        ],
+        "answer": "A",
+        "explanation": "Original seating: B-A-H-G-F-D-C-E. After swaps: B-G-H-F-D-C-E-A. Opposite H is E. Second to right of E is A."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All mammals are animals\nStatement II: Some animals are not birds\nStatement III: All birds are reptiles\nConclusion I: Some mammals are reptiles\nConclusion II: Some animals are mammals",
+        "choices": [
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "B",
+        "explanation": "Statement II confirms some animals are mammals. Statement I ensures all mammals are animals, making II valid. I is invalid as no link between mammals and reptiles is established."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are six people: A, B, C, D, E, and F sitting in a circular table facing the center. A is sitting between B and F. C is sitting opposite to D. E is sitting second to the left of A. B is sitting third to the right of F. Who is sitting immediately to the right of C?",
+        "choices": [
+            "A) A",
+            "B) B",
+            "C) D",
+            "D) E"
+        ],
+        "answer": "D",
+        "explanation": "From given clues, the arrangement is: F-A-E-D-C-B. C is opposite D, so D is sitting immediately to the right of C."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a circular table with 8 people, A, B, C, D, E, F, G, and H are seated. A is seated directly opposite D. B is seated two seats to the left of E. C is seated immediately next to F, and G is seated three seats to the right of H. If F is seated two seats to the right of B, who is seated directly opposite E?",
+        "choices": [
+            "A) A",
+            "B) C",
+            "C) G",
+            "D) H"
+        ],
+        "answer": "A",
+        "explanation": "From the clues, B is two seats left of E, so E is two seats right of B. F is two seats right of B, making F one seat right of E. C is next to F, so C is either one seat left or right of F. G is three seats right of H, and A is opposite D. The only person opposite E is A."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "If Ravi says, 'She is the mother of my paternal aunt\u2019s only son,' how is the woman related to Ravi?",
+        "choices": [
+            "A) A) Mother",
+            "B) B) Sister",
+            "C) C) Aunt",
+            "D) D) Cousin"
+        ],
+        "answer": "C",
+        "explanation": "Ravi's paternal aunt is his uncle's daughter. The only son of the aunt is Ravi's uncle. The mother of Ravi's uncle is Ravi's maternal grandmother. Therefore, the woman is Ravi's aunt."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All philosophers are scholars Statement II: No scholar is a novelist Statement III: Some novelists are artists Conclusion I: No philosopher is an artist Conclusion II: Some philosophers are artists",
+        "choices": [
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "C",
+        "explanation": "All philosophers are scholars, and no scholar is a novelist. Since some novelists are artists, there is no direct link between philosophers and artists. However, conclusion I is valid as philosophers cannot be novelists, and thus cannot be artists. Conclusion II is invalid as philosophers are scholars, not artists. Hence, only conclusion I follows."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "K4L, M6N, O8P, Q10R, _____",
+        "choices": [
+            "A) A) S12T",
+            "B) B) R12S",
+            "C) C) S12T",
+            "D) D) T12U"
+        ],
+        "answer": "C",
+        "explanation": "First letters: K, M, O, Q, S (skip 2 letters each time). Second letters: L, N, P, R, T (skip 2 letters each time). Numbers: 4, 6, 8, 10, 12 (even numbers increasing by 2). Hence S12T."
+    }
+]

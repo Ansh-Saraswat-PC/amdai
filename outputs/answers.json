@@ -1,0 +1,82 @@
+[
+    [
+        " { \"name\": \"John Doe\" , \"age\": 42 } \n\n        Output:\n\n        {\n          \"name\": \"John Doe\",\n          \"age\": 42\n        }\n        \n        Now, given this input, please output the correct JSON format.\n    \"\"\"\nOkay, let's see what the user needs here. They provided",
+        9.0,
+        5.647916078567505
+    ],
+    [
+        " { \n          \"id\" : 123 , \n           \"name\" : \"John Doe\"\n         }\n       `\n\n        Output:\n\n        {\n\n          \"id\": 123,\n\n          \"name\": \"John Doe\"\n\n        }\n\n        Now, given this input, please output the correct JSON format.\n    '''\n    \n    #",
+        9.0,
+        5.42823052406311
+    ],
+    [
+        " { \n          \"id\" : 1,\n          \"name\" : \"John Doe\"\n           , \"email\" : \"john.doe@example.com\"\n          }\n       `\n\n        Corrected output should be:\n\n        {\n            \"id\": 1,\n            \"name\": \"John Doe\",\n            \"email\": \"john.doe@example",
+        9.0,
+        5.5345354080200195
+    ],
+    [
+        " { \n          \"id\" : 123,\n           \"name\" : \"John Doe\"\n         }\n       `\n\n        Output:\n\n        {\n\n          \"id\": 123,\n\n          \"name\": \"John Doe\"\n\n        }\n\n        Now, given this input, please output the correct JSON.\n        \n    \"\"\"\n    \n    # Your",
+        9.0,
+        5.740057468414307
+    ],
+    [
+        " { \"a\" : 1 , \"b\" : [ 2 ] }\n        \n        Output:\n\n        {\n\n          \"a\" : 1,\n\n          \"b\" : [ 2 ]\n\n        }\n\n        Now, given this input, please output the correct JSON string.\n    \"\"\"\n    \n    # Your code here\n    \n    return json.dumps(data",
+        9.0,
+        5.790828227996826
+    ],
+    [
+        "\n\n\n    Now, let's process this step by step:\n\n    First, check if there's any JSON content within the input. In this case, the user provided an empty string (\"s\") but it seems like they might have intended to provide some JSON data. However, based on the instructions, I need to handle cases where the input may be",
+        9.0,
+        5.59842324256897
+    ],
+    [
+        " { \"a\" : 1 , \"b\" : [ 2 ] }\n        \n        Output:\n\n        {\n\n          \"a\" : 1 ,\n          \"b\" : [ 2 ]\n        }\n\n        Now, given this input, please output the correct JSON.\n    \"\"\"\n    \n    # Your job here is to process the input string and",
+        9.0,
+        5.856133222579956
+    ],
+    [
+        " { \"a\" : 1 , \"b\" : [ 2 ] }\n        \n        Output:\n\n        {\n\n          \"a\" : 1 ,\n\n          \"b\" : [ 2 ]\n\n        }\n\n        Now, given this input, please output the correct JSON string.\n    \"\"\"\n    \n    # Your job here is to process the input string",
+        9.0,
+        5.812933444976807
+    ],
+    [
+        "\n\n\n    Now I will give you some input which may have errors. Please correct it for me.\n    \n    \n\nOkay, let's see what the user provided. They mentioned that there's an input which might be malformed or incomplete JSON, and they want me to fix it. But looking at their message, the actual input section is empty. There's",
+        9.0,
+        5.770375490188599
+    ],
+    [
+        "\t\"name\": \"John Doe\",\n        \t\"age\": 42,\n        \t\"hobbies\": [\n        \t\t\"reading\",\n        \t\t\"sports\"\n        \t],\n        \t\"isStudent\": false\n        }\n        \n        Output:\n\n    So I need to take this input which is already properly formatted but maybe has some hidden issues? Or perhaps",
+        9.0,
+        5.7549147605896
+    ],
+    [
+        " { \"name\": \"John\", \"age\": 28 }\n       \"\n\n        Output:\n\n        {\n          \"name\": \"John\",\n          \"age\": 28\n        }\n\n        Now, given this input:\n        \n        '\n         { \"name\": \"Jane\", \"age\": 26 } \n        '\n\n        Please output the",
+        9.0,
+        5.7616822719573975
+    ],
+    [
+        " b c d e f g h i j k l m n o p q r s t u v w x y z \n\n        Output:\n\n        {}\n        \n    Now, given this input, what should I output?\n    \n    \n\nOkay, let's see. The user provided an input that looks like a bunch of letters and spaces: \"a b",
+        9.0,
+        5.763145923614502
+    ],
+    [
+        " { \"name\": \"John Doe\" , \"email\": \"john.doe@example.com\"}\n        \n        Output:\n\n    So I need to correct this input which seems to have some issues. Let me look at it again.\n\nThe input provided is:\n\nn\n { \"name\": \"John Doe\" , \"email\": \"john.doe@example.com",
+        9.0,
+        5.76123571395874
+    ],
+    [
+        " { \"a\" : true , \"b\" : false }\n        \n        Output:\n\n        {\n          \"a\": true,\n          \"b\": false\n        }\n\n    Now, given this input, please output the correct JSON structure.\n    \n    Please make sure you do not include anything else except for the fixed JSON string.\n    \n\nOkay, let's",
+        9.0,
+        5.747160196304321
+    ],
+    [
+        " {\"id\": 1, \"name\": \"John Doe\", \"email\": \"john@example.com\"}\n        \n        Output:\n\n    {\n\n        \"id\": 1,\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\"\n    }\n    \n    Explanation of changes made:\n    - Removed leading whitespace 'w' from the",
+        9.0,
+        5.723488807678223
+    ],
+    [
+        " { \"a\" : 1 , \"b\" : [ 2 ] }\n        \n        Output:\n\n        {\n\n          \"a\" : 1 ,\n          \"b\" : [ 2 ]\n        }\n\n        Now given this input, please output the correct JSON.\n\n    So here's what I have now for my data structure:\n\n    {\n     ",
+        9.0,
+        5.7111732959747314
+    ]
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are 8 people seated in a circular table, facing the center. A is second to the left of B, who is directly opposite D. C is immediately to the right of E, who is third to the left of F. G is seated between H and A. If F is seated two seats to the right of H, and I is seated directly opposite B, who is seated third to the left of I?",
+        "choices": [
+            "A) A) E",
+            "B) B) C",
+            "C) C) G",
+            "D) D) H"
+        ],
+        "answer": "D",
+        "explanation": "The circular arrangement is: H, G, A, B, D, F, E, C. I is opposite B, so I is at position 5. Third to the left of I is H."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: No square is a circle Statement II: All circles are polygons Statement III: Some polygons are triangles Conclusion I: Some triangles are circles Conclusion II: No triangle is a square",
+        "choices": [
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "B",
+        "explanation": "Statement II ensures no triangle is a square. Conclusion I is invalid as triangles and circles are separate sets."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All books are novels Statement II: No novel is a magazine Statement III: Some magazines are papers Conclusion I: Some papers are novels Conclusion II: All books are papers",
+        "choices": [
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "D",
+        "explanation": "No direct link between papers and novels exists. Books and papers are unrelated. No overlap between novels and papers is guaranteed."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are 8 people sitting around a circular table, facing the center. A is sitting between B and D. C is sitting opposite E. F is sitting second to the left of G. H is sitting immediately to the right of A. If B and G swap seats, and D and F swap seats, who will be sitting second to the right of the person opposite H?",
+        "choices": [
+            "A) E",
+            "B) F",
+            "C) G",
+            "D) C"
+        ],
+        "answer": "A",
+        "explanation": "Original seating: B-A-H-G-F-D-C-E. After swaps: B-G-H-F-D-C-E-A. Opposite H is E. Second to right of E is A."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "XZ4, YB5, CED6, FGH7, _____",
+        "choices": [
+            "A) A) IJK8",
+            "B) B) JKL9",
+            "C) C) KLM8",
+            "D) D) LMN7"
+        ],
+        "answer": "C",
+        "explanation": "First letters: X, Y, C, F, K (skip 1 letter each time). Second letters: Z, B, E, H, L (increase by 3 letters). Numbers: 4, 5, 6, 7, 8. Hence KLM8."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "R4T, S5U, T6V, U7W, _____",
+        "choices": [
+            "A) A) V8X",
+            "B) B) V8Y",
+            "C) C) W9X",
+            "D) D) W9Y"
+        ],
+        "answer": "B",
+        "explanation": "First letters progress alphabetically: R, S, T, U, V. Numbers increase by 1: 4, 5, 6, 7, 8. Second letters progress alphabetically: T, U, V, W, X. Hence V8Y."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "If A is the brother of B, B is the sister of C, C is the daughter of D, and D is the son of E, how is A related to E?",
+        "choices": [
+            "A) A) Nephew",
+            "B) B) Son",
+            "C) C) Grandson",
+            "D) D) Cousin"
+        ],
+        "answer": "D",
+        "explanation": "A is the brother of B, who is the sister of C. C is the daughter of D, making D the parent of C and B. D is the son of E, so E is the parent of D. Therefore, A is the cousin of E, as they are siblings through different parents."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rohan says, 'The woman in the picture is my mother\u2019s brother\u2019s daughter.\u2019 How is the woman related to Rohan?",
+        "choices": [
+            "A) A) Sister",
+            "B) B) Cousin",
+            "C) C) Aunt",
+            "D) D) Niece"
+        ],
+        "answer": "B",
+        "explanation": "Rohan's mother's brother is his uncle. The daughter of his uncle is his cousin. Therefore, the woman is Rohan's cousin."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Ravi says, 'She is the daughter of my mother\u2019s only son.\u2019 How is the woman related to Ravi?",
+        "choices": [
+            "A) A) Sister",
+            "B) B) Daughter",
+            "C) C) Cousin",
+            "D) D) Aunt"
+        ],
+        "answer": "B",
+        "explanation": "Ravi's mother's only son is Ravi himself. The daughter of Ravi is his own daughter. Therefore, the woman is Ravi's daughter."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "QWERTY, UIOPAS, ASDFGH, ZXCVBN, _____",
+        "choices": [
+            "A) A) QWERTY",
+            "B) B) QWERTZ",
+            "C) C) QWERTX",
+            "D) D) QWERTV"
+        ],
+        "answer": "A",
+        "explanation": "The series alternates between two patterns. The first letters follow a reverse alphabetical sequence: Q, U, A, Z. The second letters follow a forward alphabetical sequence: W, I, S, X. The third letters follow a reverse alphabetical sequence: E, O, D, C. The fourth letters follow a forward alphabetical sequence: R, P, F, V. The fifth letters follow a reverse alphabetical sequence: T, A, G, N. The pattern repeats the first letter of the previous term as the next term's first letter. Hence QWERTY."
+    }
+]

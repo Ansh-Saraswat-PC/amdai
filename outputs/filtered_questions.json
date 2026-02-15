@@ -1,0 +1,194 @@
+[
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "P4R, Q7T, R10V, S13X, _____",
+        "choices": [
+            "A) A) T16Z",
+            "B) B) T16Y",
+            "C) C) U19Z",
+            "D) D) U19Y"
+        ],
+        "answer": "B",
+        "explanation": "First letters progress alphabetically: P, Q, R, S, T. The numbers increase by 3 each time: 4, 7, 10, 13, 16. The third letters follow the sequence R, T, V, X, Y (alternating vowels and consonants). Hence T16Y."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rahul says, 'She is the daughter of my mother\u2019s only son.\u2019 How is the woman related to Rahul?",
+        "choices": [
+            "A) A) Sister",
+            "B) B) Cousin",
+            "C) C) Aunt",
+            "D) D) Mother"
+        ],
+        "answer": "A",
+        "explanation": "Rahul's mother's only son is Rahul himself. The daughter of Rahul is his sister. Therefore, the woman is Rahul's sister."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rohan says, 'My mother\u2019s only brother\u2019s daughter is the wife of my uncle\u2019s son.\u2019 How is the woman related to Rohan?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Sister",
+            "C) C) Aunt",
+            "D) D) Niece"
+        ],
+        "answer": "D",
+        "explanation": "Rohan's mother's only brother is Rohan's uncle. His daughter is Rohan's aunt. The wife of Rohan's uncle's son is Rohan's aunt's daughter, making her Rohan's niece."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "K7M, L8N, M9O, N10P, _____",
+        "choices": [
+            "A) A) O11Q",
+            "B) B) P12O",
+            "C) C) N11P",
+            "D) D) O11Q"
+        ],
+        "answer": "D",
+        "explanation": "First letters progress alphabetically: K, L, M, N, O. Second letters are in alphabetical order: 7, 8, 9, 10, 11. Third letters follow the sequence: M, N, O, P, Q. Hence O11Q."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a circular table with 8 people, A, B, C, D, E, F, G, and H are seated. A is directly opposite F. B is seated between C and D. E is seated three seats to the left of G. H is seated two seats to the right of A. If the person seated three seats to the left of B is swapped with the person seated two seats to the right of E, who is now seated directly opposite G?",
+        "choices": [
+            "A) C",
+            "B) D",
+            "C) E",
+            "D) H"
+        ],
+        "answer": "B",
+        "explanation": "Original seating: A-F-G-E-D-C-B-H. After swap, positions become A-F-H-E-D-C-B-G. G is now opposite D."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Ravi says, 'She is the daughter of my mother\u2019s only brother\u2019s daughter.\u2019 How is the woman related to Ravi?",
+        "choices": [
+            "A) A) Sister",
+            "B) B) Cousin",
+            "C) C) Niece",
+            "D) D) Aunt"
+        ],
+        "answer": "B",
+        "explanation": "Ravi's mother's only brother is Ravi's uncle. The daughter of his uncle is Ravi's aunt or cousin. Since the woman is the daughter of his uncle's daughter, she is Ravi's cousin."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a circular table with 8 people, each seated with exactly one neighbor on either side, the following statements are true: A is seated between B and F; C is seated opposite D; E is seated two seats to the left of G; H is seated directly between F and G. If G moves two seats clockwise and B moves one seat counterclockwise, who is now seated between E and H?",
+        "choices": [
+            "A) A) B",
+            "B) B) C",
+            "C) C) D",
+            "D) D) F"
+        ],
+        "answer": "C",
+        "explanation": "Original seating: B-A-F-H-G-E-D-C. After movement: G moves to position 3, B moves to position 6. New seating: B-6, A-1, F-2, H-3, G-4, E-5, D-7, C-8. E is at 5, H at 3. Between them is D at 4."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "R4T, S5U, T6V, U7W, _____",
+        "choices": [
+            "A) A) V8X",
+            "B) B) V8X",
+            "C) C) W9Y",
+            "D) D) X10Z"
+        ],
+        "answer": "B",
+        "explanation": "First letters progress alphabetically: R, S, T, U, V. Second letters also progress alphabetically: T, U, V, W, X. Numbers increase by 1 each time: 4, 5, 6, 7, 8. Hence V8X."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are eight people seated around a circular table, facing the center. A is seated between B and C. D is seated opposite A. E is seated two seats to the left of D. F is seated directly opposite E. G is seated between F and H. If H is seated three seats to the right of B, who is seated directly opposite G?",
+        "choices": [
+            "A) A",
+            "B) B",
+            "C) C",
+            "D) D"
+        ],
+        "answer": "D",
+        "explanation": "The seating order clockwise is B, A, C, D, H, F, E, G. G is opposite D."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are eight people sitting around a circular table, facing the center. A is second to the left of B, who is directly opposite C. D is immediately to the right of E, and F is third to the right of G. H is sitting between E and F. If A and C swap places, and G and B swap places, who is sitting second to the right of the person directly opposite F?",
+        "choices": [
+            "A) A) E",
+            "B) B) D",
+            "C) C) H",
+            "D) D) G"
+        ],
+        "answer": "D",
+        "explanation": "Original positions: A, E, H, F, G, B, C, D (clockwise). After swaps: C, E, H, F, A, B, D, G. F is at position 4. Opposite F is G (position 8). Second to the right of G is D."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are 8 people seated around a circular table, facing the center. A is seated second to the left of B, who is seated third to the right of C. D is seated opposite E, who is seated immediately to the right of F. G is seated second to the right of H, who is seated opposite A. If H moves two seats clockwise and D moves one seat counterclockwise, who is now seated immediately to the left of C?",
+        "choices": [
+            "A) F",
+            "B) G",
+            "C) H",
+            "D) E"
+        ],
+        "answer": "A",
+        "explanation": "Original arrangement: C, A, B, D, E, F, G, H. After movement: H moves to position 3, D moves to position 5. New arrangement: C, G, H, A, D, E, F, B. C is at position 1, left of C is G."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "QZ1, RY2, TX3, UW4, _____",
+        "choices": [
+            "A) A) VV5",
+            "B) B) VX5",
+            "C) C) VV6",
+            "D) D) VX6"
+        ],
+        "answer": "B",
+        "explanation": "First letters alternate between moving forward and backward in the alphabet: Q \u2192 R \u2192 T \u2192 U \u2192 V. Second letters alternate between moving backward and forward: Z \u2192 Y \u2192 X \u2192 W \u2192 V. Numbers increase by 1 each time. Hence VX5."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are seven people: A, B, C, D, E, F, and G, seated in a circle. A is seated between B and F. C is seated opposite D. E is seated two seats to the left of G. B is seated three seats to the right of E. F is seated directly opposite G. If A moves two seats clockwise and B moves one seat counterclockwise, who is now seated between A and G?",
+        "choices": [
+            "A) C",
+            "B) D",
+            "C) E",
+            "D) F"
+        ],
+        "answer": "A",
+        "explanation": "Original positions: A-B-E-G-F-D-C. After movement: A moves to position 3, B moves to position 5. Between A (pos 3) and G (pos 7) is C (pos 4)."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Ravi says, 'She is the daughter of my mother\u2019s only son\u2019s only daughter.\u2019 How is the woman related to Ravi?",
+        "choices": [
+            "A) A) Sister",
+            "B) B) Niece",
+            "C) C) Cousin",
+            "D) D) Daughter"
+        ],
+        "answer": "B",
+        "explanation": "Ravi's mother's only son is Ravi himself. The only daughter of Ravi is Ravi's sister. Therefore, the woman is Ravi's sister's daughter, making her Ravi's niece."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are eight people seated around a circular table, facing the center. A is seated between B and D. C is seated opposite E. F is seated immediately to the left of G. H is seated two seats to the right of A. If the person seated opposite F is I, and I is seated two seats to the left of H, who is seated immediately to the right of E?",
+        "choices": [
+            "A) B",
+            "B) C",
+            "C) D",
+            "D) G"
+        ],
+        "answer": "A",
+        "explanation": "The circular arrangement is: B-A-H-I-F-G-C-E. E is opposite C, so the person to E's right is B."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are eight people seated around a circular table, with four facing the center and four facing outward. A is seated second to the left of B, who is directly opposite D. C is seated between E and F, with E facing outward. G is seated immediately to the right of H, who is facing outward. I is seated third to the right of J, who is facing the center. If all facing outward individuals rotate 180 degrees, who is now seated directly opposite A?",
+        "choices": [
+            "A) C",
+            "B) E",
+            "C) G",
+            "D) J"
+        ],
+        "answer": "C",
+        "explanation": "After rotation, H faces center, G faces outward. A's original position is between B and C. After rotation, G is directly opposite A."
+    }
+]
